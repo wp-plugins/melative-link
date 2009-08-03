@@ -1,0 +1,45 @@
+/* MELATIVE HOVER META */
+
+div.mcontext-div {
+ position:absolute;
+ width:360px;
+ background:#fff url('http://melative.com/style/melative-90-bb.png') scroll no-repeat 96% 96%;
+ padding:10px 10px 20px;
+ -moz-border-radius:10px;
+ border:1px solid #888;
+ font-size: .8em;
+}
+
+.mcontext-div img {
+ float:left;
+}
+
+.mcontext-div h2 {
+ margin:0;
+}
+
+.mcontext-div h2 a {
+ background:none;
+ text-decoration:none;
+ color:#000;
+}
+
+.mcontext-div h2 a:hover {
+ color:#d00;
+}
+
+.mcontext-div h2,
+.mcontext-div .cd {
+ margin-left:128px;
+ text-align:left;
+}
+.mcontext-div .cd span {
+ display:block;
+}
+.mcontext-div .cd small
+{
+ display:block;
+ color:#0ac;
+ margin-left:4px;
+ font-size:.7em;
+}
