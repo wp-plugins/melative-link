@@ -26,8 +26,8 @@ Author URI: http://melative.com
 */
 
 function melative_init() {
-	wp_enqueue_style ('melative-css', '/' . PLUGINDIR . '/melative/css/style.css');
-	wp_enqueue_script('melative-js', '/' . PLUGINDIR . '/melative/js/misc.js');
+	wp_enqueue_style ('melative-css', '/' . PLUGINDIR . '/melative-link/css/style.css');
+	wp_enqueue_script('melative-js', '/' . PLUGINDIR . '/melative-link/js/misc.js');
 }    
  
 add_action('init', melative_init);
