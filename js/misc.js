@@ -27,6 +27,40 @@ function filterObjectProperties(o, filter, index)
   return obj;
 }
 
+// gay xbrowser compat
+var xb = {
+  dim: function(n) {
+    if( window['innerWidth'] ) {
+      return [window.innerWidth,window.innerHeight];
+    } else if( document.documentElement && (document.documentElement.clientWidth) ) {
+      return [document.documentElement.clientWidth, document.documentElement.clientHeight];
+    } else if( document.body && (document.body.clientWidth) ) {
+      return [document.body.clientWidth, document.body.clientHeight];
+    }
+  },
+  bind: function(o,t,f,b) {
+    b = b || false;
+    if(o.addEventListener) {
+      o.addEventListener(t, f, b);
+    } else if(o.attachEvent) {
+      o.attachEvent( "on"+t, f );
+    }
+  },
+  unbind: function(o,t,f,b) {
+    b = b || false;
+    if(o.removeEventListener) {
+      o.removeEventListener(t,f,b);
+    } else if(o.detachEvent) {
+      o.detachEvent( "on"+t, f );
+    }
+  },
+  target: function (e){ e = e || window.event;  return e.currentTarget || window.event.srcElement; },
+  cancel: function(e) {
+    if( e.stopPropagation ){ e.stopPropagation(); e.preventDefault(); }
+    else{ window.event.cancelBubble = true; }
+  }
+};
+
 // Event listeners heirarchy
 var EC = {
   currentHandlers: {},
