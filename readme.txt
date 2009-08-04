@@ -1,8 +1,8 @@
 === melative-link ===
 Contributors: Ryan Altman, Michael Rowe
 Tags: melative, media, info
-Requires at least: 2.7
-Tested up to: 2.8.2
+Requires at least: 2.8
+Tested up to: 2.8.3
 Stable tag: 0.5
 
 The melative-link plugin allows easy mouseover displays of title information from melative.com.
