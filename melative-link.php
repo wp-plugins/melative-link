@@ -3,7 +3,7 @@
 Plugin Name: melative-link
 Plugin URI: http://melative.pbworks.com/WordPress
 Description: Allows easy mouseover display of title information from the melative Expression Engine.
-Version: 0.4
+Version: 0.5
 Author: Ryan Altman, Michael Rowe
 Author URI: http://melative.com
 */
