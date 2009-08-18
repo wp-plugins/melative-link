@@ -4,11 +4,11 @@ Plugin Name: melative-link
 Plugin URI: http://melative.pbworks.com/WordPress
 Description: Instant information on any linked Melative title displayed inside a Bubble!
 Version: 0.7
-Author: Ryan Altman, Michael Rowe
+Author: RyanA, mellow_bunny
 Author URI: http://melative.com
 */
 
-/*  Copyright 2009  Ryan Altman, Michael Rowe  (email : mellow@mellowspace.com)
+/*  Copyright 2009  RyanA, mellow_bunny  (email : us@melative.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
