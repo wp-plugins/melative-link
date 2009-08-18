@@ -9,9 +9,7 @@ The melative-link plugin allows easy mouseover displays of title information fro
 
 == Description ==
 
-The melative-link plugin allows easy mouseover displays of title information from <a href="http://melative.com">melative.com</a>. <a href="http://melative.com">Melative</a> itself is an Expression Engine for sharing thoughts and intentions towards media that is viewed by the user. <a href="http://melative.com">Melative</a> provides a platform to log and share one's thoughts on media.
-
-This plugin allows anybody to make use of the growing media title database that is melative. This plugin will display information about any title that is valid in the <a href="http://melative.com">melative</a> database in an easy to style mouseover effect.
+The melative-link plugin allows easy mouseover "Bubble" displays of title information from <a href="http://melative.com">melative.com</a>. Melative holds light meta data for works of art and entertainment.
 
 == Installation ==
 
