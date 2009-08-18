@@ -1,5 +1,5 @@
 === melative-link ===
-Contributors: RyanA, Michael Rowe
+Contributors: RyanA, mellow_bunny
 Tags: melative, media, info
 Requires at least: 2.7
 Tested up to: 2.8.4
