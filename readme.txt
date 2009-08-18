@@ -2,8 +2,8 @@
 Contributors: Ryan Altman, Michael Rowe
 Tags: melative, media, info
 Requires at least: 2.7
-Tested up to: 2.8.3
-Stable tag: 0.5
+Tested up to: 2.8.4
+Stable tag: 0.6
 
 The melative-link plugin allows easy mouseover displays of title information from melative.com.
 
@@ -29,6 +29,11 @@ Please see the <a href="http://melative.pbworks.com/WordPress" title="Plugin hom
 No screenshots yet.
 
 == Changelog ==
+
+= 0.6 =
+* Implemented xb.
+* Major speed increases.
+* Position detection updated.
 
 = 0.5 =
 * Added xb variable.
