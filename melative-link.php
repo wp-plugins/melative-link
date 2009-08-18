@@ -3,7 +3,7 @@
 Plugin Name: melative-link
 Plugin URI: http://melative.pbworks.com/WordPress
 Description: Instant information on any linked Melative title displayed inside a Bubble!
-Version: 0.7
+Version: 0.8
 Author: RyanA, mellow_bunny
 Author URI: http://melative.com
 */

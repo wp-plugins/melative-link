@@ -3,7 +3,7 @@ Contributors: RyanA, mellow_bunny
 Tags: melative, media, info
 Requires at least: 2.7
 Tested up to: 2.8.4
-Stable tag: 0.7
+Stable tag: 0.8
 
 The melative-link plugin allows easy mouseover displays of title information from melative.com.
 
@@ -27,6 +27,9 @@ Please see the <a href="http://melative.pbworks.com/WordPress" title="Plugin hom
 No screenshots yet.
 
 == Changelog ==
+
+= 0.8 =
+* Fixed mouseover bug by moving x,y starting positions of Bubble -10 each.
 
 = 0.7 =
 * Updated readme.txt

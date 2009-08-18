@@ -76,11 +76,11 @@ var MelaMeta = {
   if( odiv )
   {
     odiv.style.visibility = "visible";
-    odiv.style.top = (this._position[1] + (window.pageYOffset || document.documentElement.scrollTop)) + "px";
+    odiv.style.top = ((this._position[1] - 10) + (window.pageYOffset || document.documentElement.scrollTop)) + "px";
 		if( win[0]/2 < this._position[0] ) {
-			odiv.style.left = (this._position[0] - 400) + "px";	
+			odiv.style.left = (this._position[0] - 410) + "px";	
 		} else {
-			odiv.style.left = this._position[0] + "px";
+			odiv.style.left = (this._position[0] - 10) + "px";
 		}
     MelaMeta.divTimeout(odiv,true);
   }
@@ -101,11 +101,11 @@ var MelaMeta = {
     odiv = document.createElement('div');
     odiv.id = id;
     odiv.className = "mcontext-div";
-    odiv.style.top = (this._position[1] + (window.pageYOffset || document.documentElement.scrollTop)) + "px";
+    odiv.style.top = ((this._position[1] - 10) + (window.pageYOffset || document.documentElement.scrollTop)) + "px";
 		if( win[0]/2 < this._position[0] ) {
-			odiv.style.left = (this._position[0] - 400) + "px";	
+			odiv.style.left = (this._position[0] - 410) + "px";	
 		} else {
-			odiv.style.left = this._position[0] + "px";
+			odiv.style.left = (this._position[0] - 10) + "px";
 		}
     
     var html = "<img src=\"http://images.melative.com" + o.context.image + "_120.jpg\" />";
